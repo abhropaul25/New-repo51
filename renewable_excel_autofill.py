@@ -26,6 +26,7 @@ Notes:
 import os, re, json, sys, argparse, logging, io
 from pathlib import Path
 from datetime import datetime
+from winreg import HKEY_LOCAL_MACHINE
 
 # Optional deps
 try:
@@ -258,5 +259,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    
